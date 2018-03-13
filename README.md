@@ -50,7 +50,7 @@ mvn test
 ```
 mvn clean install
 ```
-After that, user can execute jar. file located in target directory
+After that, user can execute jar. file located in your maven repository
 
 
 ## Built With
