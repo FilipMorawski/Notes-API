@@ -1,11 +1,11 @@
 # Notes API
 
-Backend API for managing notes. It provides functionalities like creating, editing, removing and obtaining specified note or list of all notes stored in database. It keeps notes state in chosen type of SQL database.
+Backend API for managing notes. It provides functionalities like creating, editing, removing and obtaining specified note or list of all notes stored in database. It keeps notes state in MySQL database.
 
 ## Requirements
 
 * Java 1.8
-* SQL database of any kind
+* MySQL database
 * Maven for building app
 
 ## Documentation
@@ -27,7 +27,7 @@ git clone https://github.com/FilipMorawski/NotesAPI
 ### Set Database
 
 Script that will set up the database is located in src/main/resources in schema.sql file. Script will be run autoumaticly on start of the app by Spring Boot.
-JDBC driver and information about used database and connection is placed in src/main/resources/application.properties file and by  default is setted on MySQL and developer database connection. Please enter your own configuration. Keep in mind that 
+Information about JDBC driver and database connection is placed in src/main/resources/application.properties file and by default is setted on MySQL and developer database connection. Please enter your own configuration. Keep in mind that 
 ```
 spring.jpa.hibernate.ddl-auto
 ```
