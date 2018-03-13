@@ -1,0 +1,7 @@
+com\filipmorawski\noteapi\GetNotesIntegrationTest.class
+com\filipmorawski\noteapi\UpdateNoteIntegrationTest.class
+com\filipmorawski\noteapi\NoteApiApplicationTests.class
+com\filipmorawski\noteapi\CreateNoteIntegrationTest.class
+com\filipmorawski\noteapi\NoteControllerTest.class
+com\filipmorawski\noteapi\RemoveNotesIntegrationTest.class
+com\filipmorawski\noteapi\note\NoteRepositoryTest.class
