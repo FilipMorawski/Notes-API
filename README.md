@@ -1,4 +1,4 @@
-# Checkout Component
+# Notes API
 
 Backend API for managing notes. It provides functionalities like creating, editing, removing and obtaining specified note or list of all notes stored in database. It keeps notes state in chosen type of SQL database.
 
